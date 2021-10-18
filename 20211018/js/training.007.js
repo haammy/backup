@@ -16,7 +16,7 @@ $(function(){
     $('.main_slider figure').eq(1).addClass('on');
     $('.main_slider').on('afterChange', function(e,s,c){
         //console.log(c);
-        $('.main_slider figure').eq(c+1).addClass('on'),siblings().removeClass('on');
+        $('.main_slider figure').eq(c+1).addClass('on').siblings().removeClass('on');
     })
 
 });
