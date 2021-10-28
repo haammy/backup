@@ -26,7 +26,7 @@ text-align:right;width:1200px;padding:0 15px;z-index:999;}
 
 
 #top_banner4 {color:#fff;position:relative;}
-#top_banner4 .case {background:#444;height:70px;overflow:hidden;transition:0.4s;}
+#top_banner4 .case {background:#444;height:70px;overflow:hidden;}
 #top_banner4 .container {width:1200px;margin:0 auto;padding:15px 15px;} 
 #top_banner4 .case.on {height:0;}
 #top_banner4 .btn  {position: absolute;bottom:-26px;left:50%;transform:translateX(-50%);
