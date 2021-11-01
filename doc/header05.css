@@ -44,7 +44,7 @@ padding:0 15px; color:#fff;}
 
 
 
-#content01 {position:relative;padding:150px 0;text-align: center;}
+#content01 {position:relative;padding:150px 0;text-align:center;}
 #content01 h2 {font-size:18px;font-weight:100;letter-spacing:1em;margin-bottom:30px;}
 /*letter-spacing:-0.025em 글자 자간.. 한글일때 -25%*/
 #content01 p {font-size:12px;margin-bottom:40px;line-height:1.6;}
