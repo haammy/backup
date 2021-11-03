@@ -12,6 +12,8 @@ $('.main_slider').slick({
     arrows:false,//버튼없애기
     autoplay:true,//자동으로돌아라
     autoplaySpeed:2000,//슬라이드속도 1000=1초
+    pauseOnHover:false,//마우스오버시 멈춰라
+    
 
 })
 
