@@ -1,5 +1,26 @@
 $(function(){
     //----------------------------------------
+    $(window).on('scroll', function(){
+        var sct=$(window).scrollTop();
+        console.log(sct);
+        if(sct>0) {
+            $('#header').addClass('on');
+        }else{
+            $('#header').removeClass('on');
+            
+        }
+       
+    });
+
+    $('#main_visual .btn01 img').on('click', function(){
+        $('.main_slider').slick('slickNext')
+    });
+   
+
+
+
+
+
     $('.main_slider').slick({
         arrows:false,
         autoplay:true,
@@ -55,8 +76,20 @@ $(function(){
     
     
     
+    //누르면 위로가는 버튼
     
-    
+    $('#toTop').on('click', function(){
+        $('html, body').animate({scrollTop:0},900) //누르면 밑에서 위로,600은 시간(2초동안 올라감)
+   });
+
+    $(window).on('scroll', function(){
+    var sct=$(window).scrollTop();
+     if(sct>4000) {
+        $('#toTop').fadeIn()
+    }else{
+        $('#toTop').fadeOut()
+    }
+    });
     
     
     
