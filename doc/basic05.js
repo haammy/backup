@@ -79,5 +79,24 @@ $('#link select').on('change', function(){
 });
 
 
+
+
+//탭메뉴슬라이더
+
+$('.tab_menu li').on('click', function(){
+    var idx=$(this).index();
+    //$('.tab_con>div').eq(idx).show().siblings().hide();
+    $('.tab_con>div').eq(idx).addClass('on').siblings().removeClass('on');
+});
+
+
+$('.tab_slider').slick({
+    arrows:false,
+    slidesToShow:4,
+    centerMode:true,
+    autoplay:true,
+});
+
+
 //------------------------------------------------------
 });
