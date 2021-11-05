@@ -7,7 +7,7 @@
 
 
 #header h1 img {width: 150px;}
-#header h1 a {display:block;width:200px;height:100px;background:url(../lib/base/logo_w_white.png) no-repeat left center/200px;}
+#header h1 a {display:block;width:200px;height:100px;}
 
 
 #header .container {display: flex;width:1200px;margin:0 auto;padding:0 15px;}
