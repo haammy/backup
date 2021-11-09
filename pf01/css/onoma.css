@@ -24,10 +24,10 @@
 
 #main_visual .main_slider {width:50%;margin-left:auto;}
 #main_visual figure {height: 900px;}
-#main_visual .visual01 {background: url(../img/main_visual01.png) no-repeat center center/cover}
-#main_visual .visual02 {background: url(../img/main_visual02.png) no-repeat center center/cover}
-#main_visual .visual03 {background: url(../img/main_visual03.png) no-repeat center center/cover}
-#main_visual .visual04 {background: url(../img/main_visual04.png) no-repeat center center/cover}
+#main_visual .visual01 {background: url(../img/main_visual01.png) no-repeat center center/cover;}
+#main_visual .visual02 {background: url(../img/main_visual02.png) no-repeat center center/cover;}
+#main_visual .visual03 {background: url(../img/main_visual03.png) no-repeat center center/cover;}
+#main_visual .visual04 {background: url(../img/main_visual04.png) no-repeat center center/cover;}
 
 
 #main_visual .container {position:absolute;top:650px;left:50% ;transform:translateX(-50%);width:1200px;

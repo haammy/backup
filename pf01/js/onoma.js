@@ -30,6 +30,10 @@ $(function(){
         //<<흐려졌다 나오기 fade:true,
     
     });
+
+
+
+    
     
     $('.best_item01').slick({
         arrows:false,
