@@ -2,11 +2,10 @@ $(function(){
     $('.main_slider').slick({
         arrows:false,        
         autoplay:true,
-        autoplaySpeed:2000,
+        autoplaySpeed:3000,
         pauseOnHover:false,
         pauseOnFocus:false,
-        fade:true, //사라지고나오게
-        speed:3000
+        
     });
 
 

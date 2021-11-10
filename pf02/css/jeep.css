@@ -27,7 +27,7 @@ z-index:1;}
 #main_visual .main_slider figure .container {color:#fff;position:absolute;top:430px;left:50%;transform:translate(-50%,-50%);width:1200px;padding:0 15px;}
 #main_visual .main_slider figure .container h3 {font-size:50px;font-weight:700;margin-bottom:15px;}
 #main_visual .main_slider figure .container p {font-size:27px;font-weight:100;letter-spacing:-0.025em;}
-
+#main_visual .main_slider figure .container h3:before {content:"";display:block;width:100px;height:2px;background:#fff;margin-bottom:30px;}
 
 
 
@@ -36,28 +36,81 @@ z-index:1;}
 
 #content01 {padding:150px 0;}
 #content01 h2 {font-size:35px;font-weight:700;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:30px;}
-#content01 .con {font-size:50px;font-weight:400;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:40px;}
-#content01 .con span{font-size:50px;font-weight:100;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:40px;}
-
+#content01 .con {font-size:50px;font-weight:400;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:50px;}
+#content01 .con span {font-size:50px;font-weight:100;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:50px;}
+#content01 span {font-size:18px;vertical-align:top;}
 
 
 #content01 .container {display:flex;padding:0 15px;width:1200px;margin:0 auto;position: relative;}
 
 
-#content01 .product01 {flex:1;width:870px;height:530px;}
+#content01 .product01 {flex:1;width:800px;}
+#content01 .product01 img {width:100%;}
 
-#content01 .product02 {flex:1;overflow:hidden;position: relative;padding:200px 0px 200px 20px}
+
+#content01 .product02 {flex:1;overflow:hidden;position: relative;padding:200px 0px 200px 80px}
 
 #content01 .product02 h3 {font-size:25px;font-weight:500;color:#333;margin-bottom:10px;}
-#content01 .product02 p {font-size:15px;font-weight:300;font-weight:100;color:#333;}
+#content01 .product02 p {font-size:15px;font-weight:300;font-weight:100;color:#333;margin-bottom:40px;}
 
-#content01 .bt i {position:absolute;top:45%;left:50%;transform:translate(-50%,-50%);font-size:20px;color:#444;}
+#content01 .product02 em {display:block;width:100px;height:28px;line-height:27px;background:#444;text-align: center;color:#fff;
+font-size:13px;font-weight: 100;}
+#content01 .product02 em:hover {display:block;width:100px;height:28px;line-height:27px;background:#ffb702;text-align: center;color:#444;
+font-size:13px;font-weight: 100;}
+
+#content01 .product02 em i {font-size:10px;}
+
+#content01 .bt i {position:absolute;top:45%;left:50%;transform:translate(-50%,-50%);font-size:30px;color:#333;}
 #content01 .bt i.xi-angle-left-thin {margin-left:-650px;color:#333;cursor:pointer;}
 #content01 .bt i.xi-angle-right-thin {margin-left:600px;color:#333;cursor:pointer;}
 
 
 
 
+
+
+/*중간배너*/
+
+#content02 {padding:60px 0;background:url(../img/content02png.png) no-repeat fixed center center/cover;text-align: center;}
+
+#content02 img {padding:50px 0 50px 0;}
+#content02 h2 {font-size:35px;font-weight:700;margin-bottom:30px;color:#fff;}
+#content02 span {font-size:35px;font-weight:700;margin-bottom:30px;color:#ffb702;}
+#content02 h2 i {font-size:12px;}
+#content02 p {font-size:15px;font-weight:100;margin-bottom:20px;color:#fff;line-height:1.7;}
+#content02 a {display:inline-block;font-size:12px;font-weight:100;color:#fff;}
+#content02 i {display:block;color:#fff;margin:5px;}
+#content02 i:hover {transform:translateY(2px);}
+#content02 strong {font-size:18px;vertical-align:top;color:#ffb702;}
+
+
+
+
+
+
+
+/*혜택*/
+
+#content03 {padding:150px 0;}
+#content03 .container {display:flex;width:1200px;margin:0 auto;}
+#content03 h2 {font-size:35px;font-weight:700;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:95px;}
+#content03 .container figure {flex:1;padding:0 15px;width: 370px;height:500px;}
+
+#content03 .container .case {overflow:hidden;border-radius:0 80px 0 0;}
+#content03 .container .case img {transition:0.5s;}
+#content03 .container .case:hover img {transform: scale(1.1);} 
+
+#content03 strong {display:block;font-size:24px;font-weight:700;padding:20px;position: relative;}
+#content03 .strong02 {line-height:1.1;}
+/*옆에 바*/
+#content03 .strong01 strong:after {content:"";display: block;width:110px;height:4px;background:#333;position: absolute;top:50%;left:50%;}
+#content03 .strong02 strong:after {content:"";display: block;width:75px;height:4px;background:#333;position: absolute;top:50%;left:75%;}
+#content03 .strong02 strong:after {content:"";display: block;width:75px;height:4px;background:#333;position: absolute;top:50%;left:75%;}
+
+#content03 p {font-size:15px;font-weight:300;margin-left:20px;letter-spacing:-0.025em;line-height:1.5;}
+
+
+#content03 span {font-size:4px;vertical-align:top;}
 
 
 
