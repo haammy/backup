@@ -33,6 +33,7 @@ $(function(){
     });
     
     
+    //폰화면으로 볼때 메뉴 
     $('.mopen').on('click', function(){
         $('nav').toggleClass('on');
         $(this).toggleClass('on');
