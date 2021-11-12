@@ -23,6 +23,8 @@ $(function(){
         dots:true,
     });
 
+    
+
 
 
     //메인슬라이드버튼
@@ -67,7 +69,7 @@ $('#content01 .bt i.xi-angle-right-thin').on('click', function(){
 
 
 $("#mv01").YTPlayer({//--html에서 가져온 소스에 div id 로 바꿔야함
-    videoURL:'https://www.youtube.com/watch?v=GwelxL6XwA8',
+    videoURL:'https://www.youtube.com/embed/hSmW468U6lg',
     containment:'#content04', //내가 넣을 곳 . section 아이디 
     autoPlay:true,
     mute:true, 
