@@ -61,7 +61,7 @@ body {font-size:0.8rem;}
 .header img {width:10rem;}
 .header .container {display:flex;width:auto;margin:0 auto;}
 .header .container>* {padding:0 0;} /*0.75rem;>15px 모바일에서 없애주면 서브메뉴 꽉참*/
-.header .sns {display:none;position: fixed;top:15rem;left:2rem;font-size:1.5rem;z-index:1000;}
+.header .sns {display:none;position: fixed;top:1.5rem;left:2rem;font-size:1.5rem;z-index:1000;}
 
 
 
