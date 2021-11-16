@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
+/*font-family: 'Shippori Mincho', serif;*/
+
+
+html {font-size:10px;}
+.wrap {min-width:120rem}
+
+.header {width:120rem;margin:0 auto;padding:0 1.5rem;line-height:10rem;font-family: 'Shippori Mincho', serif;color:#333;font-size:1.6rem;}
+.header h1 {text-align: center;}
+.header h1 img {width:30rem;}
+
+
+.gnb {display:flex;justify-content:space-between;line-height:5rem;text-align:center;}
+.gnb>ul {display:flex;justify-content:space-between;}
+
+.gnb>ul>li {padding:0 6rem 0 0;font-weight:600;}
+.gnb>ul>li>ul {font-weight:400;}
+
+.gnb .right i {padding:0 0.5rem;font-size:1.8rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
