@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+:root {
+
+}
+
+
+
+
+.wrap {min-width:1900px;}
+
+.header {display: flex;justify-content: space-between;padding:0 2rem;line-height:6rem;
+position:fixed;top:0;left:0;color:#f2f2f2;width:100%;min-width:1900px;transition:0.4s;z-index:999;}
+/*width:100% >포지션을주면 space-between이안먹고 쪼그러든다*/
+.header.on {background:rgba(0,0,0,0.7);}
+.header h1 {width:11.5rem;}
+.header nav>ul {display: flex;font-size:1rem;font-weight:500;}
+.header nav>ul a {display: block;padding:0 0.75rem;}
+.header .right a {font-size:1.3rem;font-weight:700;}
+.header .right i {padding:0.5rem;border:2px solid #fff;border-radius:50%;margin-right:0.5rem;}
+
+
+
+
+.visual {position: relative;}
+.visual:after {content:"";display: block;width:100%;height:100%;background:rgba(0,0,0,0.4);
+position: absolute;top:0;left:0;}
+.visual .main_slider {}
+.visual .main_slider figure {height:100vh;}
+.visual .item01 {background:url(./img/bg_intro01.jpg) no-repeat center center/cover;}
+.visual .item02 {background:url(./img/bg_intro02.jpg) no-repeat center center/cover;}
+.visual .item03 {background:url(./img/bg_intro03.jpg) no-repeat center center/cover;}
+
+
+
+.visual .slogan {position: absolute;top:50%;left:50%;width:60rem;transform:translate(-50%,-50%);
+color:#fff;text-align: center;z-index:999;letter-spacing:-0.025em;}
+.visual .slogan strong {display:block;font-size:1.8rem;margin-bottom:1rem;}
+.visual .slogan h2 {font-size:3.5rem;margin-bottom:1rem;font-family: 'Kaushan Script','Noto+Sans+KR';}
+.visual .slogan p {font-weight:300;line-height:1.618;}
+
+
+/*슬라이드도트*/
+.visual .slick-dots {position: absolute;bottom:3rem;left:0;width:100%;text-align:center;z-index:999;}
+.visual .slick-dots li {display:inline-block;width:5rem;height:0.2rem;background:#fff;
+border-radius:0.1rem;margin:0 0.25rem;overflow:hidden;} 
+.visual .slick-dots li button {display:none;}
+
+.visual .slick-dots li:after {content:"";display:block;width:0;height:100%;background:#8F8681;}
+.visual .slick-dots li.slick-active:after {width:100%;transition:3s;}
+
+
+
+
+
+
+
+
+
+
+
