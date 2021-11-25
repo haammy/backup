@@ -49,12 +49,11 @@ $('#content02 .bt i.xi-angle-right-thin').on('click', function(){
 
 
 //티종류
-
-$('.pr_slider').slick({
+$('.pr_slider01').slick({
     arrows:false,
-    slidesToShow:4,
+    slidesToShow:3,
     autoplay:true,
-    autoplaySpeed:2500,
+    autoplaySpeed:2000,
     //centerMode:true,
     //centerPadding:"100px"<양옆에 이미지 나오는 크기
     pauseOnHover:false,//마우스오버시 멈춰라
@@ -73,20 +72,60 @@ $('.pr_slider').slick({
             }
           },
       ]
-
 });
-
-
-//버튼
-$('#content03 .bt i.xi-angle-left-thin').on('click', function(){
-    $('.pr_slider').slick('slickPrev')
-});
-$('#content03 .bt i.xi-angle-right-thin').on('click', function(){
-    $('.pr_slider').slick('slickNext')
-});
-
-
 AOS.init();
+
+$('#content03 i.xi-angle-left-thin').on('click', function(){
+    $('.pr_slider01').slick('slickPrev');
+});
+$('#content03 i.xi-angle-right-thin').on('click', function(){
+    $('.pr_slider01').slick('slickNext');
+});
+
+
+
+
+
+
+
+
+
+
+//크리스마스에디션
+$('.pr_slider02').slick({
+    arrows:false,
+    slidesToShow:3,
+    autoplay:true,
+    autoplaySpeed:2000,
+    //centerMode:true,
+    //centerPadding:"100px"<양옆에 이미지 나오는 크기
+    pauseOnHover:false,//마우스오버시 멈춰라
+    pauseOnFocus:false,
+    responsive: [
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 3, //아이패드사이즈일때 슬라이드 3개보이기
+          }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1, //폰사이즈일때 슬라이드 1개보이기
+            }
+          },
+      ]
+});
+
+$('#product04 i.xi-angle-left-thin').on('click', function(){
+    $('.pr_slider02').slick('slickPrev');
+});
+$('#product04 i.xi-angle-right-thin').on('click', function(){
+    $('.pr_slider02').slick('slickNext');
+});
+
+
+
 
 
 
