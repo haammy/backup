@@ -28,6 +28,19 @@ $('.b_sr').slick({
     slidesToShow:1,
 });
 
+
+
+$('.b_sr figure').eq(1).addClass('on');
+$('.b_sr').on('afterChange', function(e,s,c){ 
+    
+    $('.b_sr figure').eq(c+1).addClass('on').siblings().removeClass('on'); //c+숫자 숫자는 slidesToShow:에서 몇개가 표시되느냐에 따라 달라짐,
+    
+});
+
+
+
+
+
 $('.b_item01').on('afterChange', function(e,s,c){
     $('.it_slider .num').text('0' + (c+1))
 })
@@ -57,5 +70,6 @@ $('.pr01').slick({
     // dots:true,
 });
 
+AOS.init();
 //-----------------------------------------
 })
