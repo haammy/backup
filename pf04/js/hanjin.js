@@ -35,7 +35,7 @@ $(function(){
     
     $('.b_item01').slick({
         arrows:false,
-        autoplay:true,
+        autoplay:true,        
         pauseOnHover:false,
         autoplaySpeed:2500,
         asNavFor: '.b_sr'
@@ -58,8 +58,7 @@ $(function(){
         $('.b_sr figure').eq(c+1).addClass('on').siblings().removeClass('on'); //c+숫자 숫자는 slidesToShow:에서 몇개가 표시되느냐에 따라 달라짐,
         
     });
-    
-    
+
     
     
     
@@ -74,11 +73,6 @@ $(function(){
     $('#content03 .bt i.xi-angle-right-thin').on('click', function(){
        $('.b_sr').slick('slickNext')
     });
-    
-    
-    
-    
-    
     
     
     
@@ -111,6 +105,28 @@ $(function(){
     });
   
     
+
+
+    //반응형 컨트롤
+
+
+$('.mopen').on('click', function(){
+    $('.gnb').toggleClass('on');
+    $(this).toggleClass('on');
+});
+
+
+$('.depth01>li>a').on('click', function(){
+    if($(window).width() < 769) {
+        $(this).next().slideToggle();
+        $(this).parent().siblings().find('.depth02').slideUp();
+    }
+    
+});
+
+$(window).on('resize', function(){
+    $('.depth02').removeAttr('style')
+})
 
     //-----------------------------------------
     })
