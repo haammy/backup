@@ -1,0 +1,61 @@
+
+html {font-size:10px;}
+.wrap {min-width:120rem}
+
+/*탑 배너*/
+.top_banner {background:#444;color:#ddd;}
+.top_banner .container {position:relative;width:1200px;margin:0 auto;padding:22px  15px;}
+.top_banner h2 {font-size:20px;font-weight:100;letter-spacing:-0.01em;margin-bottom:10px;}
+.top_banner p {font-size:14px;font-weight:300;letter-spacing:-0.025em;}
+.top_banner span {display: inline-block;font-weight:400;color:#e54279;letter-spacing:-0.01em;margin-left:5px;}
+.top_banner i {position: absolute;top:22px;right:15px;font-size:20px;cursor: pointer;}/*container 박스기준으로 위치해라!*/
+
+/*메뉴*/
+.header {line-height:10rem;position: relative;}
+.header h1 img {width:15rem;}
+.header .container {display:flex;width:1200px;margin:0 auto;padding:0 15px;justify-content:space-between;}
+
+.gnb {}
+.gnb .depth01 {display: flex;}
+.gnb .depth01>li>a {display: block;padding:0 3.2rem;font-size:1.4rem;font-weight:400;color: #f284a1;letter-spacing:0.03em;}
+.gnb .depth01>li~:before {content:"";display: block;width:1px;height:10px;background:#ddd;
+position: absolute;top:45px;}
+.gnb>ul>li>a:after {content:"";width:100%;height:2px;background:#e54279;transform: scaleX(0);transition:0.5s;position: absolute;top:9.8rem;left:0;}
+.gnb>ul>li>a:hover:after {content:"";height:3px;background:#e54279;transform: scaleX(1)}
+
+.gnb .depth01>li {position: relative;}
+
+
+.gnb .depth02 {height:0;overflow:hidden;position:absolute;top:10rem;left:0;width:100%;transition:0.5s;z-index:999;}
+.gnb:before {content:"";display: block;width:100%;height:0;background-color: rgba(255, 255, 255, 0.8);
+position: absolute;top:10rem;left:0;transition:0.5s;z-index:999;}
+.gnb:hover:before {height:22rem;}
+.gnb:hover .depth02 {height:22rem;}
+
+.gnb .depth02>li>a {display:block;line-height:3rem;padding:10px 0 0 0;color:#444;text-align:center;font-size:1.3rem;}
+.gnb .depth02>li>a:hover {color:#f284a1;}
+
+.header .header_search input {border:none;outline: none;border-bottom:1px solid #f284a1;padding:5px 0;}/*기본제공 디자인을 없애주는 과정*/
+.header .header_search button {background:none;border: none;outline:none;padding:5px 0;}/*기본제공 디자인을 없애주는 과정*/
+.header .header_search i {font-size:17px;color:#f284a1;padding:0 0 0 10px;cursor: pointer;}
+
+
+.mopen {display: none;}
+
+/*메인시작*/
+
+#main_visual  {height:calc(100vh - 100px);overflow: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
