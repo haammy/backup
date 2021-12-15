@@ -143,21 +143,18 @@ margin-bottom:3rem;}
 .con05 .container>div {float: left;;width:20%;height:12.5rem;background:#f5d057;} */
 
 .con05 {background:#E6E7E2;}
-.con05 .tit {font-size:2.5rem;font-weight:700;padding:1rem 0 0 0;line-height:1.2;
-background:url(../img/bg_joy.png) no-repeat right bottom} 
-.con05 .container {display:grid;grid-template-columns:20% 20% 20% 20% 20%;width:80rem;margin:0 auto;}
+.con05 .tit {font-size:2.5rem;font-weight:700;padding:1rem 0 0 0;line-height:1.2;background:url(../img/bg_joy.png) no-repeat right bottom;}
+.con05 .container {display:grid;grid-template-columns:repeat(5, 1fr);width:80rem;margin:0 auto;}
 .con05 .container>div {height:calc(80rem / 5 - 0.5rem);}
 
-/* grid-template-columns:20% 20% 20% 20% 20%; = 같다. repeat(5, 1fr) */
-
-.con05 .itm {position:relative;overflow: hidden;}
+.con05 .itm {position:relative;overflow:hidden;}
 .con05 .itm img {width:100%;transition:0.5s;}
-.con05 .itm .sns {display: flex;justify-content: center;align-items:center;position: absolute;top:100%;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);
-color:#fff;font-size:2rem;transition:0.5s;}
-.con05 .itm .sns a {display: block;margin:0 0.25rem;}
+.con05 .itm .sns {display:flex;justify-content:center;align-items:center;position:absolute;top:100%;left:0;width:100%;height:100%;background:rgba(0,0,0,0.25);color:#fff;font-size:2rem;transition:0.5s;}
+.con05 .itm .sns a {display:block;margin:0 0.25rem;}
 .con05 .itm:hover .sns {top:0;}
-.con05 .itm figure {overflow: hidden;}
+.con05 .itm figure {overflow:hidden;}
 .con05 .itm:hover img {transform:scale(1.2);}
+
 
 
 
