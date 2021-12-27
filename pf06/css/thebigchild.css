@@ -145,7 +145,7 @@ transform:translate(-50%,-50%);width:1200px;padding:0 15px;}
 #main_visual .main_slider figure .container {color:#444;position:absolute;top:350px;left:50%;
 transform:translate(-50%,-50%);width:auto;padding:0;text-align: center;}
 
-.main_slider figure strong {display: block;font-size:3vw;font-weight:400;margin-bottom:10px;}
+.main_slider figure strong {display: block;font-size:3.2vw;font-weight:400;margin-bottom:10px;}
 .main_slider figure h2 {font-size:9vw;font-weight:500;margin-bottom:50px;}
 .main_slider figure em {display: block;width:auto;font-size:16px;font-weight:400;}
 
@@ -457,15 +457,15 @@ line-height:60px;letter-spacing:-0.025em;}
 .content02 .con02_01 ul li span:nth-child(2) {position: absolute ;left:100px;font-family: 'Work Sans', sans-serif;
 font-weight:400;letter-spacing:-0.045em;font-size:21px;color:#444;}
 .content02 .con02_01 ul li span:nth-child(1):before {display:inline-block;content:"-";margin-right:8px;color:#666;}
-.content02 .con02_01 em {display: block;font-size:14px;margin-top:30px;color:#666;}
+.content02 .con02_01 em {display: block;font-size:3.2vw;margin-top:30px;color:#666;}
 
 
 .content02 .con02_02 h2 {font-size:25px;font-weight:500;color:#444;}
 .content02 .con02_02 h2:after {display: block;content:"";width:47px;height:2px;background:#12a89d;margin:28px 0;}
 .content02 .con02_02 p {font-size:16px;font-weight:400;color:#444;line-height:1.4;}
 .content02 .con02_02 .txt_bt {display: flex;justify-content: space-between;cursor: pointer;}
-.content02 .con02_02 .txt_bt strong {display: block;font-size:14px;color:#444;font-weight:400;background:#e0f4f2;margin-top:70px;border-radius:5px;
-width:153px;text-align: center;padding:10px 0;}
+.content02 .con02_02 .txt_bt strong {display: block;font-size:3.2vw;color:#444;font-weight:400;background:#e0f4f2;margin-top:70px;border-radius:5px;
+width:auto;text-align: center;padding:10px 40px;}
 .content02 .con02_02 .txt_bt strong:hover {background:#12a89d;color:#fff;}
 .content02 .con02_02 em {display: block;font-size:14px;margin-top:10px;color:#666;}
 
@@ -492,8 +492,8 @@ padding:5px 13px;border-radius:10px;color:#444}
 
 .content03 {background:#f8f8f8;padding:150px 0;height:auto;letter-spacing:-0.025em;}
 .content03 .container{width:auto;margin:0 auto;}
-.content03 .con03_txt h2 {font-size:23px;font-weight:500;color:#444;text-align: center;margin-bottom:10px;}
-.content03 .con03_txt p {font-size:16px;font-weight:400;color:#666;text-align: center;margin-bottom:20px;letter-spacing:-0.025em;}
+.content03 .con03_txt h2 {font-size:5vw;font-weight:500;color:#444;text-align: center;margin-bottom:10px;}
+.content03 .con03_txt p {font-size:3.5vw;font-weight:400;color:#666;text-align: center;margin-bottom:20px;letter-spacing:-0.025em;}
 .content03 .con03_txt span {display:block;font-size:13px;font-weight:500;color:#666;text-align:center;width: auto;
 margin-left:0;margin-bottom:25px;letter-spacing:-0.025em;background:#fff;padding:6px 15px;border-radius:10px;color:#666}
 .content03 .con03_txt span i {margin-left:5px;}
@@ -551,8 +551,8 @@ background:url(../img/con04_txt.png)no-repeat center center/cover;padding:50px 1
 /*주요진료*/
 .content05 {padding:180px 0;}
 .content05 .con05_txt {width:auto;margin:0 auto;padding:0 15px;text-align: center;}
-.content05 .con05_txt h2 {font-size:23px;font-weight:500;color:#444;text-align: center;margin-bottom:10px;}
-.content05 .con05_txt p {font-size:16px;font-weight:400;color:#777;text-align: center;margin-bottom:40px;letter-spacing:-0.025em;}
+.content05 .con05_txt h2 {font-size:5vw;font-weight:500;color:#444;text-align: center;margin-bottom:10px;}
+.content05 .con05_txt p {font-size:3.5vw;font-weight:400;color:#777;text-align: center;margin-bottom:40px;letter-spacing:-0.025em;}
 
 .content05 .container {width:auto;margin:0 auto;padding:0 15px;color:#444;display: grid;
 grid-template-columns:repeat(1,1fr);grid-template-rows:250px 180px;
@@ -675,7 +675,7 @@ position: absolute;top:60px;left:0;}
 .right_banner ul i {display:inline-block; line-height: 50px; font-size:23px;padding:5px 15px 0 15px;}
 
 
-#toTop {position: fixed;display:none;bottom:300px;right:80px; width:50px;height:50px;border:1px solid #ddd; background:#fff;
+#toTop {position: fixed;display:none;bottom:300px;right:0; width:55px;height:50px;border:1px solid #ddd; background:#fff;
 border-radius:5px;text-align: center;padding:6px;font-size:14px;font-weight:300;color:#444;cursor: pointer;z-index:999;}
 #toTop span {display: block;}
 
