@@ -83,7 +83,7 @@ if(sct>3000) {
 
 $('.mopen').on('click', function(){ 
     $('.gnb').toggleClass('on'); 
-    $('.top_nav').fadeToggle();
+    $('.top_nav').toggleClass('on');
     $(this).toggleClass('on');
 });
 
