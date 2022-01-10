@@ -35,13 +35,16 @@ $(function(){
     //search
     $('header .right').on('click', function(){
         $(this).toggleClass('on');
-        $('.all_menu').slideToggle();
+        $('.all_menu').fadeToggle();
         if($('.right').hasClass('on')) {
             $.fn.fullpage.setAllowScrolling(false);
         }else{
             $.fn.fullpage.setAllowScrolling(true);
         }
     });
+    $('header .right').on('scroll wheel' , function(){
+        return false;
+    })//커버나왔을때 휠이 안먹도록
 
 
     $('.main_slider').slick({
@@ -160,8 +163,14 @@ var t_slid = $('.con04 .icon_link .list');
     });
 
 
+    $('.right_pop h2').on('click', function(){
+        $('.right_pop').toggleClass('on');
+    });
 
+    $(window).on('resize', function(){
 
-
+        $('.right_pop').removeAttr('style');
+        
+    });
     //------------------------------------------------------------
     })
