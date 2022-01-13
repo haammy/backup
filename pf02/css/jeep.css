@@ -362,17 +362,17 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     /*푸터*/
     #footer {background:#191919;color:#ccc;font-weight:300;}
     #footer .container {display:flex;flex-flow: row wrap;justify-content:center;width:auto;margin:0 auto;
-    line-height:40px;padding:10px 15px;}
+    line-height:50px;padding:10px 15px;}
     
     .foo01 {background:#202020}
     #footer .customer_link {display: flex;flex-flow: row wrap;justify-content:center;}
     #footer .customer_link li {position: relative;}
-    #footer .customer_link a {display: block;padding:0 20px;font-size:2.8vw;}
+    #footer .customer_link a {display: block;padding:0 15px;font-size:2.8vw;}
     #footer .customer_link li:first-child a {padding:0 20px 0 0;}
     #footer .customer_link li~li:before {content:"";display: none;width:1px;height:12px;background:#666;
     position: absolute;top:43%;left:0;}
     
-    #footer .sns {font-size:5vw;}
+    #footer .sns {font-size:5vw;padding: 10px 0 0 0;}
     #footer .sns i {background:#333;border-radius: 50%;padding:10px;}
     #footer hr {border:none;border-top:1px solid #444;}
     
