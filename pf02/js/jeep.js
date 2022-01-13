@@ -12,8 +12,6 @@ $(function(){
        
     });
 
-
-
     $('.main_slider').slick({
         arrows:false,
         autoplay:true,
@@ -24,9 +22,6 @@ $(function(){
     });
 
     
-
-
-
     //메인슬라이드버튼
     $('#main_visual .btn i.xi-angle-left-thin').on('click', function(){
         $('.main_slider').slick('slickPrev')
@@ -35,10 +30,6 @@ $(function(){
         $('.main_slider').slick('slickNext')
     });
     
-
-
-
-
 
 
 //----제품슬라이드
@@ -68,42 +59,67 @@ $('#content01 .bt i.xi-angle-right-thin').on('click', function(){
 
 
 
-$("#mv01").YTPlayer({//--html에서 가져온 소스에 div id 로 바꿔야함
+//스크롤이벤트
+// let con03Top = $('.con03').offset().top;
+// $(window).on('scroll', function(){
+//     let sct=$(window).scrollTop();
+//     console.log(sct,con02Top);
+//     if(sct > con03Top -50) {
+//         $('.con03').addClass('on')
+//     }else{
+//         $('.con03').removeClass('on')
+//     }
+// });  
+
+$(window).on('scroll', function(){
+    let sct=$(window).scrollTop();
+    let bt=$(window).outerHeight(true);
+    $('.con03').each(function(){
+        let secTop = $(this).offset().top;
+        let this_h = $(this).outerHeight(true);
+        console.log(bt,this_h)
+        sct > secTop - (bt-this_h)/2  ? $(this).addClass('on') : $(this).removeClass('on');
+    })
+
+});  
+
+
+$("#mv01").YTPlayer({
     videoURL:'https://www.youtube.com/embed/hSmW468U6lg',
-    containment:'#content04', //내가 넣을 곳 . section 아이디 
+    containment:'#content04',  
     autoPlay:true,
     mute:true, 
     startAt:0, 
-    opacity:1,     // 1보다낮추면 배경에 비치게 나옴 0.2,0.1
-    showControls:false, // 재생버튼 없애는것 깃허브에 있음
+    opacity:1, 
+    showControls:false,
 
 }); 
-
-
-
-
+ 
   
-//누르면 위로가는 버튼
     
-$('#toTop').on('click', function(){
-    $('html, body').animate({scrollTop:0},900) //누르면 밑에서 위로,600은 시간(2초동안 올라감)
+$('#banner .itm06').on('click', function(){
+    $('html, body').stop().animate({scrollTop:0}, 500);
 });
 
 $(window).on('scroll', function(){
-var sct=$(window).scrollTop();
- if(sct>3000) {
-    $('#toTop').fadeIn()
-}else{
-    $('#toTop').fadeOut()
-}
+    var sct=$(window).scrollTop();
+
+    $('#banner').css({bottom:200 - sct})
 });
-    
 
+//-----------------------------------------------------------
 
+$('.mopen').on('click', function(){
+    $('nav').toggleClass('on');
+    $(this).toggleClass('on');
+});
 
+$('#header .mopen').on('click', function(){
+    $('nav').toggle();
+});
 
-
-
-
+$(window).on('resize', function(){
+    $('nav').removeAttr('style');
+});
 
 })
