@@ -2,7 +2,7 @@
 #header{}
 
 #header {position:fixed;top:0;left:0;line-height:120px;width:100%;color: #fff;z-index:1;}
-#header.on {background:#fff;line-height:80px;color:#444;border-bottom:1px solid #ddd;}
+#header.on {background:#fff;line-height:80px;color:#222;border-bottom:1px solid #ddd;}
 
 #header h1 img {width:120px;}
 #header h1 a {display:block;width:120px;height:120px;background:url(../img/logo_white.png) no-repeat left center/120px;}
@@ -32,8 +32,8 @@
 #main_visual .main_slider figure .container h2 {font-size:50px;font-weight:700;margin-bottom:20px;}
 #main_visual .main_slider figure .container p {font-size:25px;font-weight:100;letter-spacing:-0.025em;margin-bottom:60px;}
 #main_visual .main_slider figure .container a {border:1px solid #fff;padding:9px 28px;font-size:12px;letter-spacing:0.05em;}
-#main_visual .main_slider figure .container a:hover {background:#ffb702;color:#333;border:1px solid #ffb702;}
-
+#main_visual .main_slider figure .container a:hover {background:#ffb702;color:#222;border:1px solid #ffb702;}
+#main_visual .main_slider figure .container a i {font-size:10px;margin-left:3px;}
 /*슬라이드버튼*/
 #main_visual {position: relative;}
 #main_visual .slick-dots {display:flex;position: absolute;top:90%;left:50%;transform:translate(-50%,-50%);}
@@ -42,7 +42,7 @@
 #main_visual .slick-dots li.slick-active {background:#fff;border:none;transform:scale(1.4);cursor:pointer}
 #main_visual .slick-dots li button {display:none;}
 
-#main_visual .btn i {position:absolute;top:90%;left:50%;transform:translate(-50%,-50%);font-size:13px;color:#333;}
+#main_visual .btn i {position:absolute;top:90%;left:50%;transform:translate(-50%,-50%);font-size:13px;color:#222;}
 #main_visual .btn i.xi-angle-left-thin {margin-left:-70px;color:#ddd;cursor:pointer;}
 #main_visual .btn i.xi-angle-right-thin {margin-left:70px;color:#ddd;cursor:pointer;}
 
@@ -50,9 +50,9 @@
 /*제품슬라이드*/
 
 #content01 {padding:150px 0;}
-#content01 h2 {font-size:35px;font-weight:700;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:30px;}
-#content01 .con {font-size:50px;font-weight:400;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:50px;}
-#content01 .con span {font-size:50px;font-weight:100;color:#333;width:1200px;margin:0 auto;text-align: center;margin-bottom:50px;}
+#content01 h2 {font-size:35px;font-weight:700;color:222;width:1200px;margin:0 auto;text-align: center;margin-bottom:30px;}
+#content01 .con {font-size:50px;font-weight:400;color:#222;width:1200px;margin:0 auto;text-align: center;margin-bottom:50px;}
+#content01 .con span {font-size:50px;font-weight:100;color:#222;width:1200px;margin:0 auto;text-align: center;margin-bottom:50px;}
 #content01 span {font-size:18px;vertical-align:top;}
 #content01 .container {display:flex;padding:0 15px;width:1200px;margin:0 auto;position: relative;}
 #content01 .product01 {flex:1;width:800px;cursor: pointer;}
@@ -60,16 +60,16 @@
 #content01 .product01 .new01 {position: relative;}
 
 #content01 .product02 {flex:1;overflow:hidden;position: relative;padding:200px 0px 200px 80px}
-#content01 .product02 h3 {font-size:25px;font-weight:500;color:#333;margin-bottom:10px;}
-#content01 .product02 p {font-size:15px;font-weight:300;font-weight:100;color:#333;margin-bottom:60px;}
+#content01 .product02 h3 {font-size:25px;font-weight:500;color:#222;margin-bottom:10px;}
+#content01 .product02 p {font-size:15px;font-weight:300;font-weight:100;color:#222;margin-bottom:60px;}
 #content01 .product02 em {display:block;width:100px;height:28px;line-height:27px;background:#555;text-align: center;color:#fff;
 font-size:13px;font-weight: 100;cursor:pointer;}
 #content01 .product02 em:hover {display:block;width:100px;height:28px;line-height:27px;background:#ffb702;text-align: center;color:#444;
 font-size:13px;font-weight: 100;}
 #content01 .product02 em i {font-size:10px;}
-#content01 .bt i {position:absolute;top:45%;left:50%;transform:translate(-50%,-50%);font-size:30px;color:#333;}
-#content01 .bt i.xi-angle-left-thin {margin-left:-650px;color:#333;cursor:pointer;}
-#content01 .bt i.xi-angle-right-thin {margin-left:600px;color:#333;cursor:pointer;}
+#content01 .bt i {position:absolute;top:45%;left:50%;transform:translate(-50%,-50%);font-size:30px;color:#222;}
+#content01 .bt i.xi-angle-left-thin {margin-left:-650px;color:#222;cursor:pointer;}
+#content01 .bt i.xi-angle-right-thin {margin-left:600px;color:#222;cursor:pointer;}
 
 
 /*중간배너*/
@@ -82,7 +82,7 @@ font-size:13px;font-weight: 100;}
 #content02 h2 i {font-size:12px;}
 #content02 p {font-size:14px;font-weight:100;margin-bottom:20px;color:#fff;line-height:1.7;}
 #content02 a {border:1px solid #a8a8a8;padding:8px 25px;font-size:12px;color:#fff;}
-#content02 a:hover {background:#ffb702;color:#333;border:1px solid #ffb702;}
+#content02 a:hover {background:#ffb702;color:#222;border:1px solid #ffb702;}
 #content02 i {padding:0 0 0 8px;}
 #content02 strong {font-size:18px;vertical-align:top;color:#ffb702;}
 
@@ -139,7 +139,7 @@ padding:100px 50px; text-align: center;color:#fff;}
 #content04 p {font-size:19px;font-weight:400;margin-bottom:20px;letter-spacing:-0.025em;}
 #content04 em {font-size:13px;font-weight:300;line-height:1.8;letter-spacing:-0.025em;}
 #content04 a {border:1px solid #a8a8a8;width:300px;padding:8px 30px;font-size:11px;margin:0 5px;}
-#content04 a:hover {background:#ffb702;color:#333;border:1px solid #ffb702}
+#content04 a:hover {background:#ffb702;color:#222;border:1px solid #ffb702}
 
 
 /*가입배너*/
@@ -148,7 +148,7 @@ padding:100px 50px; text-align: center;color:#fff;}
 line-height:140px;padding:0 15px;background:#202020;}
 #content05 h2 {font-size:18px;font-weight:700;color:#ccc;padding:0 100px 0 0;}
 
-#content05 .Search input {border:none;outline: none;background:#fff;color:#333;padding:8px 30px;width:300px;height:30px;border-radius:5px 0 0 5px;margin-right:-6px;}
+#content05 .Search input {border:none;outline: none;background:#fff;color:#222;padding:8px 30px;width:300px;height:30px;border-radius:5px 0 0 5px;margin-right:-6px;}
 #content05 .Search button {background:#ffb702;border: none;outline:none;padding:8px 0;width:100px;height:30px;border-radius:0 5px 5px 0 ;}
 #content05 .Search p {font-size:13px;font-weight:100;color:#444;padding:0px;background:#ffb702;cursor: pointer;letter-spacing:0.05em;}
 
@@ -179,12 +179,12 @@ position: absolute;top:43%;left:0;}
 #banner a {position: relative;;display:block;width:50px;height:50px;background:rgba(0, 0, 0, 0.7);border-radius:10px;margin-bottom:3px;z-index:2;}
 #banner a:hover {background:#ffb702;}
 #banner a i {line-height:50px;font-size:18px;color:#ddd;}
-#banner a:hover i {color:#333;}
-#banner a span {display: block;position: absolute;top:0;left:0;width:0;height:50px;background:#333;
+#banner a:hover i {color:#222;}
+#banner a span {display: block;position: absolute;top:0;left:0;width:0;height:50px;background:#222;
 font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition:0.4s;}
-#banner a:hover span {left:-120px;width:130px;opacity: 1;background:#ffb702;color:#333;font-weight:400;}
+#banner a:hover span {left:-120px;width:130px;opacity: 1;background:#ffb702;color:#222;font-weight:400;}
 #banner .itm:nth-child(6) {background:#ffb702;}
-#banner .itm06 i {color:#333;}
+#banner .itm06 i {color:#222;}
 
 
 @media (max-width:768px){
@@ -197,7 +197,7 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     #header h1 img {width:120px;}
     #header h1 a {display:block;width:120px;height:100px;background:url(../img/logo_white.png) no-repeat left center/120px;}
     #header.on h1 a {height:100px;background:url(../img/logo_black.png) no-repeat left center/120px;}
-    #header.on .mopen span {background:#333;}
+    #header.on .mopen span {background:#222;}
     
     
     #header .container {display:flex;width:auto;padding:0 15px;margin:0 auto;}
@@ -237,8 +237,8 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     #main_visual .main_slider figure .container h2 {font-size:8.5vw;font-weight:700;margin-bottom:20px;}
     #main_visual .main_slider figure .container p {font-size:4vw;font-weight:100;letter-spacing:-0.025em;margin-bottom:60px;}
     #main_visual .main_slider figure .container a {border:1px solid #fff;padding:9px 28px;font-size:12px;letter-spacing:0.05em;}
-    #main_visual .main_slider figure .container a:hover {background:#ffb702;color:#333;border:1px solid #ffb702;}
-    
+    #main_visual .main_slider figure .container a:hover {background:#ffb702;color:#222;border:1px solid #ffb702;}
+    #main_visual .main_slider figure .container a i {font-size:10px;margin-left:3px;}
     /*슬라이드버튼*/
     #main_visual {position: relative;}
     #main_visual .slick-dots {display:flex;position: absolute;top:90%;left:50%;transform:translate(-50%,-50%);}
@@ -247,16 +247,16 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     #main_visual .slick-dots li.slick-active {background:#fff;border:none;transform:scale(1.4);cursor:pointer}
     #main_visual .slick-dots li button {display:none;}
     
-    #main_visual .btn i {display: flex;position:absolute;top:90%;left:50%;transform:translate(-50%,-50%);font-size:13px;color:#333;}
+    #main_visual .btn i {display: flex;position:absolute;top:90%;left:50%;transform:translate(-50%,-50%);font-size:13px;color:#222;}
     #main_visual .btn i.xi-angle-left-thin {margin-left:-70px;color:#ddd;cursor:pointer;}
     #main_visual .btn i.xi-angle-right-thin {margin-left:70px;color:#ddd;cursor:pointer;}
     
     
     /*제품슬라이드*/
     #content01 {padding:100px 0;}
-    #content01 h2 {font-size:6vw;font-weight:700;color:#333;width:auto;margin:0 auto;text-align: center;margin-bottom:20px;}
-    #content01 .con {font-size:8.2vw;font-weight:400;color:#333;width:auto;margin:0 auto;text-align: center;margin-bottom:50px;}
-    #content01 .con span {font-size:8.2vw;font-weight:100;color:#333;width:auto;margin:0 auto;text-align: center;margin-bottom:50px;}
+    #content01 h2 {font-size:6vw;font-weight:700;color:#222;width:auto;margin:0 auto;text-align: center;margin-bottom:20px;}
+    #content01 .con {font-size:8.2vw;font-weight:400;color:#222;width:auto;margin:0 auto;text-align: center;margin-bottom:50px;}
+    #content01 .con span {font-size:8.2vw;font-weight:100;color:#222;width:auto;margin:0 auto;text-align: center;margin-bottom:50px;}
     #content01 span {font-size:18px;vertical-align:top;}
     #content01 .container {display:flex;flex-direction: column;padding:0 15px;width:auto;margin:0 auto;position: relative;}
     #content01 .product01 {flex:1;width:100%;}
@@ -264,16 +264,16 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     #content01 .product01 .new01 {position: relative;}
 
     #content01 .product02 {flex:1;overflow:hidden;position: relative;padding:30px 0px;text-align: center;align-items: center;}
-    #content01 .product02 h3 {font-size:5vw;font-weight:500;color:#333;margin-bottom:10px;}
-    #content01 .product02 p {font-size:3vw;font-weight:300;font-weight:100;color:#333;margin-bottom:30px;}
+    #content01 .product02 h3 {font-size:5vw;font-weight:500;color:#222;margin-bottom:10px;}
+    #content01 .product02 p {font-size:3vw;font-weight:300;font-weight:100;color:#222;margin-bottom:30px;}
     #content01 .product02 em {display:block;width:100px;height:28px;line-height:27px;background:#555;text-align: center;color:#fff;margin:0 auto;
     font-size:13px;font-weight: 100;cursor:pointer;}
     #content01 .product02 em:hover {display:block;width:100px;height:28px;line-height:27px;background:#ffb702;text-align: center;color:#444;
     font-size:3vw;font-weight: 100;}
     #content01 .product02 em i {font-size:10px;}
-    #content01 .bt i {position:absolute;top:80%;left:50%;transform:translate(0);font-size:30px;color:#333;}
-    #content01 .bt i.xi-angle-left-thin {margin-left:0;left:15px;color:#333;cursor:pointer;}
-    #content01 .bt i.xi-angle-right-thin {margin-left:0;left:auto;right:15px;color:#333;cursor:pointer;}
+    #content01 .bt i {position:absolute;top:80%;left:50%;transform:translate(0);font-size:30px;color:#222;}
+    #content01 .bt i.xi-angle-left-thin {margin-left:0;left:15px;color:#222;cursor:pointer;}
+    #content01 .bt i.xi-angle-right-thin {margin-left:0;left:auto;right:15px;color:#222;cursor:pointer;}
 
     
     /*중간배너*/
@@ -286,7 +286,7 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     #content02 h2 i {font-size:4vw;}
     #content02 p {font-size:3vw;font-weight:100;margin-bottom:20px;color:#fff;line-height:1.7;}
     #content02 a {border:1px solid #a8a8a8;padding:8px 25px;font-size:12px;color:#fff;}
-    #content02 a:hover {background:#ffb702;color:#333;border:1px solid #ffb702;}
+    #content02 a:hover {background:#ffb702;color:#222;border:1px solid #ffb702;}
     #content02 i {padding:0 0 0 8px;}
     #content02 strong {font-size:3vw;vertical-align:top;color:#ffb702;}
     
@@ -343,7 +343,7 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     #content04 p {font-size:4.3vw;font-weight:400;margin-bottom:20px;letter-spacing:-0.025em;}
     #content04 em {font-size:3.3vw;font-weight:300;line-height:1.8;letter-spacing:-0.025em;}
     #content04 a {border:1px solid #a8a8a8;width:300px;padding:8px 30px;font-size:3vw;margin:0 5px;}
-    #content04 a:hover {background:#ffb702;color:#333;border:1px solid #ffb702}
+    #content04 a:hover {background:#ffb702;color:#222;border:1px solid #ffb702}
     
     
     /*가입배너*/
@@ -352,7 +352,7 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     line-height:70px;padding:20px 15px;background:#202020;text-align: center;}
     #content05 h2 {font-size:3.5vw;font-weight:700;color:#ccc;padding:0 0 0 0;}
     
-    #content05 .Search input {border:none;outline: none;background:#fff;color:#333;padding:8px 30px;width:auto;height:30px;border-radius:5px 0 0 5px;margin-right:-6px;}
+    #content05 .Search input {border:none;outline: none;background:#fff;color:#222;padding:8px 30px;width:auto;height:30px;border-radius:5px 0 0 5px;margin-right:-6px;}
     #content05 .Search button {background:#ffb702;border: none;outline:none;padding:8px 0;width:auto;height:auto;border-radius:0 5px 5px 0 ;}
     #content05 .Search p {font-size:13px;font-weight:100;color:#444;padding:0 15px;background:#ffb702;cursor: pointer;letter-spacing:0.05em;}
     
@@ -373,7 +373,7 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     position: absolute;top:43%;left:0;}
     
     #footer .sns {font-size:5vw;padding: 10px 0 0 0;}
-    #footer .sns i {background:#333;border-radius: 50%;padding:10px;}
+    #footer .sns i {background:#222;border-radius: 50%;padding:10px;}
     #footer hr {border:none;border-top:1px solid #444;}
     
     #footer .foo02 {width:auto;margin:0 auto;line-height:1.6;padding:60px 15px;font-size:2vw;text-align: center;}
@@ -384,12 +384,12 @@ font-size:14px;line-height:50px;border-radius:10px 0 0 10px;opacity:0;transition
     #banner a {position: relative;;display:block;width:40px;height:40px;background:rgba(0, 0, 0, 0.7);border-radius:10px;margin-bottom:3px;z-index:2;}
     #banner a:hover {background:#ffb702;}
     #banner a i {line-height:40px;font-size:15px;color:#ddd;}
-    #banner a:hover i {color:#333;}
-    #banner a span {display: block;position: absolute;top:0;left:0;width:0;height:40px;background:#333;
+    #banner a:hover i {color:#222;}
+    #banner a span {display: block;position: absolute;top:0;left:0;width:0;height:40px;background:#222;
     font-size:14px;line-height:40px;border-radius:10px 0 0 10px;opacity:0;transition:0.4s;}
-    #banner a:hover span {left:-120px;width:130px;opacity: 1;background:#ffb702;color:#333;font-weight:400;}
+    #banner a:hover span {left:-120px;width:130px;opacity: 1;background:#ffb702;color:#222;font-weight:400;}
     #banner .itm:nth-child(6) {background:#ffb702;}
-    #banner .itm06 i {color:#333;}
+    #banner .itm06 i {color:#222;}
     
 }
 
