@@ -3,6 +3,7 @@ $(function(){
     
     $('#main').fullpage({
         anchors:['c01', 'c02', 'c03', 'c04', 'footer'],
+        responsiveWidth:768,
         //navigation: true,
         afterLoad: function(origin, destination, direction){
             let txt = $('.navbar>li').eq(destination.index).find('a').text();
