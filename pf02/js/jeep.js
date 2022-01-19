@@ -58,19 +58,6 @@ $('#content01 .bt i.xi-angle-right-thin').on('click', function(){
 });
 
 
-
-//스크롤이벤트
-// let con03Top = $('.con03').offset().top;
-// $(window).on('scroll', function(){
-//     let sct=$(window).scrollTop();
-//     console.log(sct,con02Top);
-//     if(sct > con03Top -50) {
-//         $('.con03').addClass('on')
-//     }else{
-//         $('.con03').removeClass('on')
-//     }
-// });  
-
 $(window).on('scroll', function(){
     let sct=$(window).scrollTop();
     let bt=$(window).outerHeight(true);
@@ -78,7 +65,7 @@ $(window).on('scroll', function(){
         let secTop = $(this).offset().top;
         let this_h = $(this).outerHeight(true);
         console.log(bt,this_h)
-        sct > secTop - (bt-this_h)/2  ? $(this).addClass('on') : $(this).removeClass('on');
+        sct > secTop - (bt-this_h)/2 -200 ? $(this).addClass('on') : $(this).removeClass('on');
     })
 
 });  
@@ -104,7 +91,7 @@ $('#banner .itm06').on('click', function(){
 $(window).on('scroll', function(){
     var sct=$(window).scrollTop();
 
-    $('#banner').css({bottom:200 - sct})
+    $('#banner').css({ top:500 + sct})
 });
 
 //-----------------------------------------------------------
