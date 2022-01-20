@@ -21,7 +21,7 @@ $("#utc").YTPlayer({
 
 $('.best_item01').slick({
     autoplay:true,
-    autoplaySpeed:2000,
+    autoplaySpeed:2200,
     arrows:false,
     fade:true,
     speed:500,
