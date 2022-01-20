@@ -7,10 +7,10 @@ $("#utc").YTPlayer({
     autoPlay: true,
     mute:true,
     useOnMobile: true,
-    loop: true,//반복
+    loop: true,
     startAt:0, 
-    opacity:1,     //
-    showControls:false, // 재생버튼x
+    opacity:1,
+    showControls:false,
 
 }); 
 
@@ -24,7 +24,7 @@ $('.best_item01').slick({
     autoplaySpeed:2000,
     arrows:false,
     fade:true,
-    speed:1000,
+    speed:500,
     pauseOnHover:false,
     asNavFor: '.best_sr'
 
@@ -55,20 +55,20 @@ $('.pr_slider01').slick({
     autoplay:true,
     autoplaySpeed:2000,
     //centerMode:true,
-    //centerPadding:"100px"<양옆에 이미지 나오는 크기
-    pauseOnHover:false,//마우스오버시 멈춰라
+    //centerPadding:"100px"
+    pauseOnHover:false,
     pauseOnFocus:false,
     responsive: [
         {
           breakpoint: 769,
           settings: {
-            slidesToShow: 3, //아이패드사이즈일때 슬라이드 3개보이기
+            slidesToShow: 3,
           }
         },
         {
             breakpoint: 600,
             settings: {
-              slidesToShow: 1, //폰사이즈일때 슬라이드 1개보이기
+              slidesToShow: 1,
             }
           },
       ]
@@ -85,33 +85,25 @@ $('#content03 i.xi-angle-right-thin').on('click', function(){
 
 
 
-
-
-
-
-
-
 //크리스마스에디션
 $('.pr_slider02').slick({
     arrows:false,
     slidesToShow:3,
     autoplay:true,
     autoplaySpeed:2000,
-    //centerMode:true,
-    //centerPadding:"100px"<양옆에 이미지 나오는 크기
-    pauseOnHover:false,//마우스오버시 멈춰라
+    pauseOnHover:false,
     pauseOnFocus:false,
     responsive: [
         {
           breakpoint: 769,
           settings: {
-            slidesToShow: 3, //아이패드사이즈일때 슬라이드 3개보이기
+            slidesToShow: 3,
           }
         },
         {
             breakpoint: 600,
             settings: {
-              slidesToShow: 1, //폰사이즈일때 슬라이드 1개보이기
+              slidesToShow: 1,
             }
           },
       ]
@@ -132,7 +124,7 @@ $('#product04 i.xi-angle-right-thin').on('click', function(){
 //클릭시 탑
     
 $('#toTop').on('click', function(){
-    $('html, body').animate({scrollTop:0},900) //누르면 밑에서 위로,600은 시간(2초동안 올라감)
+    $('html, body').animate({scrollTop:0},900)
 });
 
 $(window).on('scroll', function(){
