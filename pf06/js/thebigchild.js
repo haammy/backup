@@ -47,7 +47,6 @@ $('.main_slider').on('afterChange', function(e,s,c){
 })
 
 
-
 //접종
 
 $('.con04_slide').slick({
@@ -60,8 +59,6 @@ $('.con04_slide').slick({
 
     
 });
-
-
 
 
 
