@@ -147,8 +147,8 @@ transform:translate(-50%,-50%);width:1200px;padding:0 15px;}
 transform:translate(-50%,-50%);width:100%;padding:0;text-align: center;}
 
 .main_slider figure strong {display: block;font-size:4.5vw;font-weight:400;margin-bottom:10px;}
-.main_slider figure h2 {font-size:9vw;font-weight:500;margin-bottom:40px;}
-.main_slider figure em {display: block;width:auto;font-size:4vw;font-weight:400;}
+.main_slider figure h2 {font-size:9vw;font-weight:500;margin-bottom:30px;}
+.main_slider figure em {display: block;width:auto;font-size:3.5vw;font-weight:400;}
 
 .main_slider figure em i {display: inline-block;margin-left:5px;font-size:15px;transition:0.5s;}
 .main_slider figure em:hover i {transform:translateX(10px);}
@@ -667,7 +667,7 @@ position: absolute;top:60px;left:0;}
 .footer .icon {width:auto;margin: 0 auto;padding:0 15px 10px 15px;line-height:1.1;font-size:2.3vw;color:#999;font-weight:300;}
 
 
-.right_banner {position:fixed; top:60%; right:-105px; width:150px;;background:#fff;border:1px solid #ddd;color:#666; z-index:888;border-radius:8px;transition:0.3s;}
+.right_banner {position:fixed; top:60%; right:-105px; width:150px;;background:rgba(225,225,225,0.2);border:1px solid #ddd;color:#666; z-index:888;border-radius:8px;transition:0.3s;}
 .right_banner:hover {right:-20px}
 .right_banner ul {transition:0.3s;}
 .right_banner ul li {position: relative;}
