@@ -431,13 +431,13 @@ font-size:13px;line-height:35px;font-weight:500;transition:0.5s;}
 
 
 /* portfolio_02 */
-.portfolio_02 {position: relative;background:#fff;height:100vh}
+.portfolio_02 {position: relative;background:#fff;height:100vh;padding:100px 0;}
 .p02_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;}
 .p02_slider img {width:auto;}
 .p02_slider figure {height:500px}
 .p02_slider .pc {background:none;}
 .p02_slider .pc img {position: absolute;top:25%;right:auto;width:100%;}
-.p02_slider .ph img {position: absolute;top:0%;left:0;width:700px;}
+.p02_slider .ph img {position: absolute;top:-10%;left:0;width:700px;}
 
 .section .portfolio_02 .container {position:static;top:0;left:15%;width:auto;margin:0 auto;}
 
@@ -451,15 +451,15 @@ font-size:13px;line-height:35px;font-weight:500;transition:0.5s;}
 
 
 /* portfolio_03 */
-.portfolio_03 {position: relative;background:#f284a1;height:100vh}
+.portfolio_03 {position: relative;background:#f284a1;height:100vh;padding:100px 0;}
 .p03_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;left:0;}
 .p03_slider img {width:auto;}
-.p03_slider figure {height:470px}
+.p03_slider figure {height:400px}
 .p03_slider .pc {background:url(../img/p03_bg.png) right bottom/cover;}
 .p03_slider .pc img {position: absolute;top:24%;left:0;width:100%;}
-.p03_slider .ph img {position: absolute;top: 5%;left:50%;transform: translateX(-50%);width:700px;}
+.p03_slider .ph img {position: absolute;top: 5%;left:50%;transform: translateX(-50%);width:600px;}
 .portfolio_03 .container {position:static;top:30%;left:0;width:auto;margin:0 auto;}
-.portfolio_03 .container .pp_txt {width:100%;margin-left:0;padding:400px 20px 0 20px;color:#fff;}
+.portfolio_03 .container .pp_txt {width:100%;margin-left:0;padding:300px 20px 30px 20px;color:#fff;}
 
 .section .pp_txt03 h2:after {display:block;content:"";width:0;height:1px;background:#fff;margin:20px 0}
 .section.on .pp_txt03 h2:after {width:100%;}
@@ -474,12 +474,12 @@ font-size:13px;line-height:40px;font-weight:500;color:#fff;transition:0.5s;}
 .b02 a:hover {background:#fff;color:#f284a1;}
 
 /* portfolio_04 */
-.portfolio_04 {position: relative;background:#fff;height:100vh}
+.portfolio_04 {position: relative;background:#fff;height:100vh;padding:100px 0;}
 .p04_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;}
 .p04_slider img {width:auto}
 .p04_slider figure {height:500px}
 .p04_slider .pc img {position: absolute;top:24%;right:auto;width:100%;}
-.p04_slider .ph img {position: absolute;top:10%;left:0;width:700px;}
+.p04_slider .ph img {position: absolute;top:-10%;left:0;width:700px;}
 .portfolio_04 .container {position:static;top:30%;left:15%;width:auto;margin:0 auto;}
 
 .c09 {background:#69bdb2}
@@ -491,15 +491,15 @@ font-size:13px;line-height:40px;font-weight:500;color:#fff;transition:0.5s;}
 
 
 /* portfolio_05 */
-.portfolio_05 {position: relative;background:#0c0c0c;height:100vh}
+.portfolio_05 {position: relative;background:#0c0c0c;height:100vh;padding:100px 0;}
 .p05_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;left:0;}
 .p05_slider img {width:auto;}
-.p05_slider figure {height:500px}
+.p05_slider figure {height:400px}
 .p05_slider .pc img {position: absolute;top:24%;left:0;width:100%;}
 .p05_slider .ph {background: url(../img/dd.png) no-repeat right/cover;}
 .p05_slider .ph img {position: absolute;top:22%;left:46%;transform: translateX(-50%);width:50%;}
 .portfolio_05 .container {position:static;top:30%;left:0;width:auto;margin:0 auto;}
-.portfolio_05 .container .pp_txt {width:100%;margin-left:0;padding:400px 20px 0 20px;color:#fff;}
+.portfolio_05 .container .pp_txt {width:100%;margin-left:0;padding:300px 20px 30px 20px;color:#fff;}
 
 .c13 {background:#ffb702;}
 .c14 {background:#ffffff;}
@@ -512,12 +512,12 @@ font-size:13px;line-height:40px;color:#fff;font-weight:500;transition:0.5s;}
 
 
 /* portfolio_06 */
-.portfolio_06 {position: relative;background:#fff;height:100vh}
+.portfolio_06 {position: relative;background:#fff;height:100vh;padding:100px 0;}
 .p06_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;}
 .p06_slider img {width:auto}
 .p06_slider figure {height:500px}
 .p06_slider .pc img {position: absolute;top:24%;right:auto;width:100%;}
-.p06_slider .ph img {position: absolute;top:10%;left:0;width:700px;}
+.p06_slider .ph img {position: absolute;top:-10%;left:0;width:700px;}
 
 .portfolio_06 .container {position:static;top:30%;left:15%;width:auto;margin:0 auto;}
 
