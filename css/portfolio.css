@@ -317,22 +317,22 @@ body {font-size:1.6rem;}
     100% {transform: scale(1.1);}
 }
 @keyframes ani_move {
-    0%{top:250px;left:10%;}
-    10%{top:260px;left:18%;}
-    20%{top:260px;left:18%;}
-    30%{top:260px;left:20%;}
-    40%{top:270px;left:14%;}
-    50%{top:280px;left:18%;}
-    60%{top:260px;left:18%;}
-    70%{top:260px;left:18%;}
-    80%{top:260px;left:15%;}
-    90%{top:250px;left:13%;}
-    100%{top:250px;left:10%;}
+    0%{top:210px;left:10%;}
+    10%{top:230px;left:18%;}
+    20%{top:230px;left:18%;}
+    30%{top:230px;left:20%;}
+    40%{top:250px;left:14%;}
+    50%{top:250px;left:18%;}
+    60%{top:240px;left:18%;}
+    70%{top:240px;left:18%;}
+    80%{top:240px;left:15%;}
+    90%{top:230px;left:13%;}
+    100%{top:210px;left:10%;}
 }
 @keyframes blob_move{
     0%{transform: rotate();}
 }
-.title {color:var(--bg);position: absolute;top:350px;left:50%;transform: translate(-50%,-50%);text-align: center;width:100%;}
+.title {color:var(--bg);position: absolute;top:300px;left:50%;transform: translate(-50%,-50%);text-align: center;width:100%;}
 .title h2 {font-size:25vw;font-weight:200;margin-bottom:35px;font-family:var(--ft);}
 .title h3 {font-size:5vw;font-weight:500;margin-bottom:8px;font-family:var(--ft);letter-spacing:0.4em;margin-left:0;line-height:1.4;}
 .title p {display:block;font-size:3.5vw;font-weight:200;font-family: var(--ft);margin-bottom:8px;margin-left:0;letter-spacing:0.05em;}
