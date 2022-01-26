@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
@@ -280,6 +279,7 @@ font-size:13px;line-height:40px;font-weight:500;color:#444;transition:0.5s;}
 .profile .bt {position:fixed;bottom:100px;;right:100px;font-size:12px;color: var(--gc);letter-spacing:-0.025em;}
 
 
+
 @media (max-width:768px) {
     
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -431,7 +431,7 @@ font-size:13px;line-height:35px;font-weight:500;transition:0.5s;}
 
 
 /* portfolio_02 */
-.portfolio_02 {position: relative;background:#fff;}
+.portfolio_02 {position: relative;background:#fff;height:100vh}
 .p02_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;}
 .p02_slider img {width:auto;}
 .p02_slider figure {height:500px}
@@ -451,7 +451,7 @@ font-size:13px;line-height:35px;font-weight:500;transition:0.5s;}
 
 
 /* portfolio_03 */
-.portfolio_03 {position: relative;background:#f284a1;}
+.portfolio_03 {position: relative;background:#f284a1;height:100vh}
 .p03_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;left:0;}
 .p03_slider img {width:auto;}
 .p03_slider figure {height:470px}
@@ -474,7 +474,7 @@ font-size:13px;line-height:40px;font-weight:500;color:#fff;transition:0.5s;}
 .b02 a:hover {background:#fff;color:#f284a1;}
 
 /* portfolio_04 */
-.portfolio_04 {position: relative;background:#fff;}
+.portfolio_04 {position: relative;background:#fff;height:100vh}
 .p04_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;}
 .p04_slider img {width:auto}
 .p04_slider figure {height:500px}
@@ -491,7 +491,7 @@ font-size:13px;line-height:40px;font-weight:500;color:#fff;transition:0.5s;}
 
 
 /* portfolio_05 */
-.portfolio_05 {position: relative;background:#0c0c0c;}
+.portfolio_05 {position: relative;background:#0c0c0c;height:100vh}
 .p05_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;left:0;}
 .p05_slider img {width:auto;}
 .p05_slider figure {height:500px}
@@ -512,7 +512,7 @@ font-size:13px;line-height:40px;color:#fff;font-weight:500;transition:0.5s;}
 
 
 /* portfolio_06 */
-.portfolio_06 {position: relative;background:#fff;}
+.portfolio_06 {position: relative;background:#fff;height:100vh}
 .p06_slider {width:100%;height:calc(100vh - 50%);position: absolute;top:0;right:0;}
 .p06_slider img {width:auto}
 .p06_slider figure {height:500px}
