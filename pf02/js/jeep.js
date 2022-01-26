@@ -91,7 +91,7 @@ $('#banner .itm06').on('click', function(){
 $(window).on('scroll', function(){
     var sct=$(window).scrollTop();
 
-    $('#banner').css({ top:500 + sct})
+    $('#banner').css({top:300+sct});
 });
 
 //-----------------------------------------------------------
