@@ -332,7 +332,7 @@ body {font-size:1.6rem;}
 @keyframes blob_move{
     0%{transform: rotate();}
 }
-.title {color:var(--bg);position: absolute;top:420px;left:50%;transform: translate(-50%,-50%);text-align: center;width:100%;}
+.title {color:var(--bg);position: absolute;top:350px;left:50%;transform: translate(-50%,-50%);text-align: center;width:100%;}
 .title h2 {font-size:25vw;font-weight:200;margin-bottom:35px;font-family:var(--ft);}
 .title h3 {font-size:5vw;font-weight:500;margin-bottom:8px;font-family:var(--ft);letter-spacing:0.4em;margin-left:0;line-height:1.4;}
 .title p {display:block;font-size:3.5vw;font-weight:200;font-family: var(--ft);margin-bottom:8px;margin-left:0;letter-spacing:0.05em;}
