@@ -479,7 +479,7 @@ font-size:13px;line-height:40px;font-weight:500;color:#fff;transition:0.5s;}
 .p04_slider img {width:auto}
 .p04_slider figure {height:500px}
 .p04_slider .pc img {position: absolute;top:24%;right:auto;width:100%;}
-.p04_slider .ph img {position: absolute;top:-10%;left:0;width:700px;}
+.p04_slider .ph img {position: absolute;top:-12%;left:0;width:700px;}
 .portfolio_04 .container {position:static;top:30%;left:15%;width:auto;margin:0 auto;}
 
 .c09 {background:#69bdb2}
@@ -517,7 +517,7 @@ font-size:13px;line-height:40px;color:#fff;font-weight:500;transition:0.5s;}
 .p06_slider img {width:auto}
 .p06_slider figure {height:500px}
 .p06_slider .pc img {position: absolute;top:24%;right:auto;width:100%;}
-.p06_slider .ph img {position: absolute;top:-10%;left:0;width:700px;}
+.p06_slider .ph img {position: absolute;top:-12%;left:0;width:700px;}
 
 .portfolio_06 .container {position:static;top:30%;left:15%;width:auto;margin:0 auto;}
 
