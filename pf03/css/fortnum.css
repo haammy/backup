@@ -423,7 +423,7 @@ line-height:2.5rem;position:absolute;top:0.75rem;left:0;font-weight:100;font-siz
 
 
 
-#content03 .arrows i {font-size:1.6rem;position: absolute;top:43%;left:50%;transform:translate(0,0);z-index:999}
+#content03 .arrows i {display:none;font-size:1.6rem;position: absolute;top:43%;left:50%;transform:translate(0,0);z-index:999}
 #content03 .arrows i.xi-angle-left-thin {margin-left:10px;color:#333;background:#fff;border-radius:50%;padding:6px;box-shadow: 0px 1px 5px 0px  rgb(194, 194, 194);}
 #content03 .arrows i.xi-angle-right-thin {left:auto;right:0px;margin-left:0;color:#333;background:#fff;border-radius:50%;padding:6px;box-shadow: 0px 1px 5px 0px  rgb(194, 194, 194);} /*버튼위치*/
 
@@ -457,7 +457,7 @@ line-height:2.5rem;position:absolute;top:0.75rem;left:0;font-weight:100;font-siz
 
 
 #product04 {padding:10rem 0;position: relative;}
-#product04 h2 {font-size:5vw;font-weight:700;color: #444;margin-bottom:1.5rem;margin-top:5rem;line-height:1.2;font-family: var(--font);}
+#product04 h2 {font-size:4.5vw;font-weight:700;color: #444;margin-bottom:1.5rem;margin-top:5rem;line-height:1.2;font-family: var(--font);}
 #product04 p {font-size:3vw;font-weight:300;color: #444;line-height:1.6;margin-bottom:2rem;letter-spacing:-0.025em;}
 #product04 .container .dis a {display:block;font-size:1rem;color: #555;margin-bottom:2rem;font-family: var(--font);}
 #product04 .container .dis a:after {content:"";display:none;width:6rem;height:1px;background: transparent;margin:7px 0;} 
@@ -480,7 +480,7 @@ line-height:2.5rem;position:absolute;top:0.75rem;left:0;font-weight:100;font-siz
 
 
 
-#product04 .arrows i {font-size:1.6rem;position: absolute;top:42%;left:50%;transform: translate(0,0);z-index:999}
+#product04 .arrows i {display:none;font-size:1.6rem;position: absolute;top:42%;left:50%;transform: translate(0,0);z-index:999}
 #product04 .arrows i.xi-angle-left-thin {margin-left:10px;color:#333;background:#fff;border-radius:50%;padding:6px;box-shadow: 0px 1px 5px 0px  rgb(194, 194, 194);}
 #product04 .arrows i.xi-angle-right-thin {left:auto;right:0px;margin-left:0;color:#333;background:#fff;border-radius:50%;padding:6px;box-shadow: 0px 1px 5px 0px  rgb(194, 194, 194);} /*버튼위치*/
 
@@ -510,7 +510,7 @@ line-height:2.5rem;position:absolute;top:0.75rem;left:0;font-weight:100;font-siz
     
     #content05 .con05 h2 {font-size:5vw;font-weight:700;color: #444;margin:6rem 0 4rem 0;font-family: var(--font);}
     #content05 .con05 p {font-size:3.2vw;font-weight:300;color: #666;line-height:1.6;margin-bottom:6.5rem;}
-    #content05 .con05 i {font-size:22px;color:#666;background:#fff;box-shadow: 1px 1px 5px 0px  rgb(194, 194, 194);border-radius:50%;padding: 8px;margin-right:0;}
+    #content05 .con05 i {font-size:22px;color:#666;background:#fff;box-shadow: 1px 1px 5px 0px  rgb(194, 194, 194,0.5);border-radius:50%;padding: 8px;margin-right:0;margin:0 5px;}
     #content05 .con05 i:hover {background:#e8f8f5;}
     
     
@@ -523,8 +523,8 @@ line-height:2.5rem;position:absolute;top:0.75rem;left:0;font-weight:100;font-siz
 #footer strong {font-size:1.1rem;color:#555;line-height:3rem;font-family: var(--font);}
 
 
-#toTop {position: fixed;display:block;bottom:150px;right:30px;}
-#toTop i {padding:10px;font-size:20px;color: #666;background:#fff;border-radius:50%;box-shadow: 1px 1px 5px 0px  rgb(194, 194, 194);;cursor:pointer;}
+#toTop {position: fixed;display:block;bottom:150px;right:30px;z-index:99999;}
+#toTop i {padding:10px;font-size:20px;color: #666;background:#fff;border-radius:50%;box-shadow: 1px 1px 5px 0px  rgb(194, 194, 194,0.5);cursor:pointer;}
 #toTop i:hover {background:#e8f8f5;}
 
 
