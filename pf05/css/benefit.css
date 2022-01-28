@@ -799,7 +799,7 @@ address {color:var(--gc);font-size:12px;border-top:1px solid var(--dc);line-heig
 
 /*푸터*/
 
-.footer {padding:calc(110vh + 110px) 0 0 0;background:var(--bc);text-align: center;z-index:999;}
+.footer {padding:calc(110vh + 100px) 0 0 0;background:var(--bc);text-align: center;z-index:999;}
 .footer .container {width:auto;padding:0 15px;margin:0 auto;}
 .footer img {width:110px;line-height:50px;margin-bottom:10px;}
 .footer .sns {font-size:3.2vw;color:var(--gc);line-height:50px;}
