@@ -462,9 +462,9 @@ border:1px solid #999;border-radius:50%;transition:0.3s;}
     
 /*메인시작*/
 .con01 .main_slider figure {height:100vh;width:100%;position: relative;}
-.con01 .main_slider .visual01 {background:url(../img/visual01.png) no-repeat center center/cover;}
-.con01 .main_slider .visual02 {background:url(../img/visual02.png) no-repeat center center/cover;}
-.con01 .main_slider .visual03 {background:url(../img/visual03.png) no-repeat center center/cover;}
+.con01 .main_slider .visual01 {background:url(../img/mvisual01.png) no-repeat center center/cover;}
+.con01 .main_slider .visual02 {background:url(../img/mvisual02.png) no-repeat center center/cover;}
+.con01 .main_slider .visual03 {background:url(../img/mvisual03.png) no-repeat center center/cover;}
 .con01 .main_slider .visual04 {background:url(../img/visual04.png) no-repeat center center/cover;}
 
 .con01 .con01_txt .container {width:100%;padding:0 15px;position: absolute;top:510px;left:50%;transform:translate(-50%,-50%);color:var(--lc);letter-spacing:-0.025em;z-index:999;}
