@@ -57,11 +57,11 @@ html {font-size:10px;}
 .header.on h1 img {top:0;box-shadow:0 5px 5px rgba(0,0,0,0.3);}
 
 .top_nav .container {width:auto;margin:0 auto;color:#444;font-weight:300;font-size:13px;line-height:40px;background:#fff;left:-100%;}
-.top_nav .container ul {display: flex;justify-content: right;}
+.top_nav .container ul {display: flex;justify-content:right;}
 .top_nav .container ul li {display:block;padding:0 15px;position: relative;}
 .top_nav .container ul li~li:before {display:block;content:"";width:1px;height:8px;background:#ccc;
 position: absolute;top:45%;left:0;}
-.top_nav.on {left:0;}
+
 
 .header nav {background:#333;height:100vh;}
 .header nav .container {width:calc(100% - 50px);margin:0 auto;padding:0;display: flex;flex-direction: column;
