@@ -162,7 +162,7 @@ width:400px;padding:10px;font-size:16px}
     
     
     /*퀵메뉴*/
-    .right_pop {position: absolute;top:calc(100% - 10px);left:0;width:100%;height:auto;background:var(--ssc);box-shadow:0 10px 10px rgba(0,0,0,0.2);
+    .right_pop {position: absolute;top:850px;left:0;width:100%;height:auto;background:var(--ssc);box-shadow:0 10px 10px rgba(0,0,0,0.2);
     text-align: center;padding:0 0 0 0;letter-spacing: -0.025em;z-index:999;}
     .right_pop.on {top:90px;height:calc(100vh - 90px)}
     .right_pop .pop01 {display:none;}
@@ -209,7 +209,7 @@ width:400px;padding:10px;font-size:16px}
     
     .mopen {display:block;position:fixed;top:30px;right:30px;width:30px;height:29px;z-index:1000;cursor: pointer;}
     .mopen::before {content:"";display:block;width:100%;height:100%;transform:scale(1.5);border-radius:5px;}
-    .mopen.on:before {background:var(--mc);}
+    .mopen.on:before {background:hsl(236, 32%, 56%,0.5);}
     .mopen span {display:block;width:100%;height:3px;background:var(--mc);position:absolute;left:0;}
     .mopen span:nth-child(1) {top:3px;transition:0.5s;}
     .mopen span:nth-child(2) {top:12px;transition:0.5s;}
