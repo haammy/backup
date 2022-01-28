@@ -565,7 +565,7 @@ padding:0 0 0 20px;line-height:1.3;}
 .dis_tap .best_tap_content .brows .b_hover img { width:100%;border-radius:15px;}
 .dis_tap .best_tap_content .brows .b_hover:hover {opacity:0;}
 .dis_tap .best_tap_content .brows figure strong {float: left;display:block;font-size:2.9vw;font-weight:500;color:var(--lc);
-padding:13px 0 10px 20px;line-height:1.3;letter-spacing:0.07em;}
+padding:13px 0 10px 20px;line-height:1.3;letter-spacing:0.01em;}
 .dis_tap .best_tap_content .brows figure span:nth-of-type(1) {display: block; float: right;font-size:3vw;padding: 10px 15px 0 0;color:var(--lc);}
 .dis_tap .best_tap_content .brows figure span:nth-of-type(1) i {background:var(--sub_01);width:25px;height:25px;border-radius:50%;line-height:1.5;padding:3px 0 0 6px;}
 .dis_tap .best_tap_content .brows figure span:nth-of-type(1):hover i {background:var(--lc);color:var(--sub_01);}
@@ -623,7 +623,7 @@ font-size:16px;font-weight:700;width:150px;height:40px;background:var(--lc);line
 .con02 {overflow: hidden;}
 .con02 .case {}
 .con02 figure {cursor: pointer;}
-.con02 .back02 {background:var(--b_c01);height:auto;min-height:110vh;padding:100px 0;}
+.con02 .back02 {background:var(--b_c01);height:auto;min-height:110vh;padding:100px 0}
 .con02 .back02 .container {width:auto;padding:0 ;margin:0 auto;display: flex;flex-direction: column;align-items: center;} 
 .con02 .back02 .container .holi01 {width:100%;text-align: center;}
 .con02 .back02 .container .holi01 strong {display:block;font-size:5.7vw;font-family: var(--sfont), cursive;color:var(--main_03);line-height:1.4;margin-bottom:15px;margin-top:0;}
@@ -634,22 +634,22 @@ width:150px;height:auto;background:var(--lc);line-height:2.7;padding:0;border-ra
 
 .holi_pro .case {padding:0 15px;position: relative;margin-bottom:15px;}
 
-.holi_pro .case em {display: block;text-align: center;background:var(--main_03);color:var(--lc);width:100px;height:30px;font-size:12px;font-weight:500;
+.holi_pro .case em {display:none;text-align: center;background:var(--main_03);color:var(--lc);width:80px;height:30px;font-size:2.5vw;font-weight:500;
 line-height:2.3;border-radius:8px;position: absolute;top:48%;left:27%;opacity:0;transition:none;}
 .holi_pro .case:hover em {opacity:1;box-shadow:5px 5px 15px rgba(0,0,0,0)}
 .holi_pro figure {overflow: hidden;border-radius:20px;box-shadow:5px 5px 15px rgba(0,0,0,0)}
 .holi_pro figure img {flex:1;width:100%;transition:none;}
 .holi_pro figure:hover img {filter:blur(1px);transform:scale(1.1);}
 
-.con02 .back02 .container .holi02 {width:100%;overflow: hidden;border-radius:20px;box-shadow:5px 5px 15px rgba(0,0,0,0.0);padding:0 15px;margin-bottom:20px;}
+.con02 .back02 .container .holi02 {width:auto;overflow: hidden;border-radius:20px;box-shadow:5px 5px 15px rgba(0,0,0,0.0);padding:0 15px;margin-bottom:0;}
 .con02 .back02 .container .holi02 img {width:100%;transition:none;border-radius:20px;}
 .con02 .back02 .container .holi02:hover img {filter:blur(1px);transform:scale(1);}
 .con02 .back02 .container .holi02 .case {}
 .con02 .back02 .container .holi02 figure {position:relative;}
 .con02 .back02 .container .holi02 figure span {position: absolute;top:48%;left:37%;color:var(--main_03);text-align: center;
 font-size:16px;font-weight:700;width:150px;height:40px;background:var(--lc);line-height:2.4;border-radius:10px;opacity:0;transition:none;}
-.con02 .back02 .container .holi02:hover span {opacity:1;box-shadow:5px 5px 15px rgba(0,0,0,0.15)}
-.con02 .back02 .container .holi02 figure span::before {display:block;width:100%;height:100%;background:var(--main_02);}
+.con02 .back02 .container .holi02:hover span {opacity:0;box-shadow:5px 5px 15px rgba(0,0,0,0.15)}
+.con02 .back02 .container .holi02 figure span::before {display:block;width:100%;height:auto;background:var(--main_02);}
 
 
 }
@@ -799,7 +799,7 @@ address {color:var(--gc);font-size:12px;border-top:1px solid var(--dc);line-heig
 
 /*푸터*/
 
-.footer {padding:calc(110vh + 50px) 0 0 0;background:var(--bc);text-align: center;}
+.footer {padding:calc(110vh + 50px) 0 0 0;background:var(--bc);text-align: center;z-index:999;}
 .footer .container {width:auto;padding:0 15px;margin:0 auto;}
 .footer img {width:110px;line-height:50px;margin-bottom:10px;}
 .footer .sns {font-size:3.2vw;color:var(--gc);line-height:50px;}
